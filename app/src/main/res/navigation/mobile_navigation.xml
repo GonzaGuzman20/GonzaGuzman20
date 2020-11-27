@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_calculadora">
+
+    <fragment
+        android:id="@+id/nav_calculadora"
+        android:name="com.example.myapplication.Calculadora_Fragment"
+        android:label="MI CALCULADORA_"
+        tools:layout="@layout/fragment_calculadora_" />
+    <fragment
+        android:id="@+id/nav_sonido"
+        android:name="com.example.myapplication.Sonido_Fragment"
+        android:label="MI REPRODUCTOR"
+        tools:layout="@layout/fragment_sonido_" />
+    <fragment
+        android:id="@+id/nav_sitioweb"
+        android:name="com.example.myapplication.SitioWeb_Fragment"
+        android:label="INGRESO A UN SITIO WEB"
+        tools:layout="@layout/fragment_sitio_web_" />
+    <fragment
+        android:id="@+id/nav_abriapk"
+        android:name="com.example.myapplication.AbrirAPK_Fragment"
+        android:label="IR A OTRAS APLICACIONES"
+        tools:layout="@layout/fragment_abrir_a_p_k_" />
+    <fragment
+        android:id="@+id/nav_propio"
+        android:name="com.example.myapplication.Propio_Fragment"
+        android:label="MI UBICACION"
+        tools:layout="@layout/fragment_propio_" />
+</navigation>
